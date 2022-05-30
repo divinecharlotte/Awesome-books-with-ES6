@@ -1,0 +1,147 @@
+#bookss {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+  }
+  
+  #dynamic {
+    border: black 2px solid;
+  }
+  
+  hr {
+    width: 40%;
+    height: 2px;
+    background-color: black;
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  .delete {
+    margin-left: 260px;
+  }
+  
+  #book-list tr:nth-child(odd) {
+    background-color: #e4e4e4;
+  }
+  
+  #book-list td,
+  #book-list th {
+    padding: 4px;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  button {
+    background-color: white;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+  }
+  
+  form button {
+    float: right;
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+  }
+  
+  section h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  nav #navigation {
+    border: 3px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 50px;
+    margin-bottom: 150px;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    font-size: 20px;
+  }
+  
+  nav ul hr {
+    height: 30px;
+  }
+  
+  nav ul li a:hover {
+    color: blue;
+  }
+  
+  #show-contact {
+    align-items: center;
+    flex-direction: column;
+    display: none;
+  }
+  
+  footer {
+    border: 3px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 43px;
+    padding-left: 3%;
+    height: 50px;
+    width: 96%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #book-form {
+    font-size: 25px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  
+  #book-form input {
+    width: 500px;
+    height: 25px;
+    border: 2px black solid;
+  }
+  
+  section #show-book {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  .remove-page {
+    display: flex;
+  }
+  

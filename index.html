@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Book Keeping Website</title>
+</head>
+<body>
+    <nav>
+        <div id="navigation">
+            <div>
+                <h2>Awesome Books</h2>
+            </div>
+            <div>
+                <ul>
+                    <li><a id="n1" href="#">List</a></li>
+                    <li><hr></li>
+                    <li><a id="n2"  href="#">Add Book</a></li>
+                    <li><hr></li>
+                    <li><a id="n3"  href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="bookss">
+     
+     <div id="show-book">
+        <h1>All Awesome books</h1>
+        <div id = "dynamic">
+            <table class="table" id="book-list">
+            
+            </table>
+        </div>
+     </div>
+
+        <div>
+          <form id = "book-form">
+            <h2>
+                Add a new book
+            </h2>
+            <input type="text" name = "title" id="title"  placeholder="Title"><br><br>
+            <input type="text" name = "author" id="tuthor"  placeholder="Author"><br><br>
+            <button id="addItem" type= "submit">add</button>
+          </form>
+        </div>
+        <div id="show-contact">
+            <h2>Contact Information</h2>
+            <div>
+                <p>If you have any sort of questions, Or want to share your valuable comments, Fell free to reach us at!</p>
+            </div>
+            <div>
+                <ul>
+                    <li>Our Email: 123@gmail.com</li>
+                    <li>Our phone number: +283498723432</li>
+                    <li>Our address: Street 2, Hazara Town, New York</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2>Copyright:</h2>
+        <p>Microverse Students own this website</p>
+    </footer>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
