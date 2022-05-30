@@ -20,4 +20,4 @@ contactUs.addEventListener('click', () => {
   document.getElementById('show-contact').style.cssText = 'display: flex;';
 });
 
-export {list,addBook,contactUs};
+export { list, addBook, contactUs };
