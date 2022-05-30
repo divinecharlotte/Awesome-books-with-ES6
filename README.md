@@ -3,7 +3,7 @@
 > This project is about building a book keeping website. Where folks can store their favortie book names. And can also delete those, whenever, needed.
 
 ## Live demo 
-you van see the poject [live]()
+you van see the poject [live]( https://divinecharlotte.github.io/Awesome-books-with-ES6/)
 
 
 ## Built With
