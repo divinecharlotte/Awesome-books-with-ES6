@@ -14,7 +14,7 @@ const handleTime = () => {
   else currentDate += 'th';
 
   const time = (hour < 12) ? `${month} ${currentDate} ${year}, ${hour} ${minutes} ${second} AM`
-    : `${month} ${currentDate} ${year}, ${hour} ${minutes} ${second} PM`;
+    : `${month} ${currentDate} ${year}, ${hour}: ${minutes}: ${second} PM`;
   dateContainer.innerHTML = time;
 };
 export default handleTime;
