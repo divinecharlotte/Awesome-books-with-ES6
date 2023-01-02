@@ -31,7 +31,7 @@
 
 ##### For validation detection using Stylelint Run
 ``` bash 
-npx stylelint "\*_/_.{css,scss}"
+ npx stylelint "**/*.{css,scss}"
  ```
 
 ## Getting packages and debuging with Webhint
