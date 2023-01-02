@@ -4,7 +4,7 @@
 ![aweso](https://user-images.githubusercontent.com/60146030/210275906-79c71ca6-b85d-4082-803b-d9c0419b77bf.PNG)
 
 ## Live demo 
-you van see the poject [live]( https://divinecharlotte.github.io/Awesome-books-with-ES6/)
+[Live Demo]( https://divinecharlotte.github.io/Awesome-books-with-ES6/)
 
 
 ## Built With
